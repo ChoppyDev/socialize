@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>SociaLize</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/socialize.css">
+    <script src="js/vendor/jquery-3.3.1.min.js"></script>
+    <script src="js/socialize.js"></script>
+    <script src="js/doc.js" ></script>
+</head>
+<body>
+
+    <div class="sl-header">
+        <h1>Welcome to SociaLize</h1>
+    </div>
+    <div class="article-card">
+        <p> Your responsive sharing bar</p>
+        <div id="socialize-container" data-list="facebook,twitter,linkedin,email" data-href="https://kwit.app/fr/blog/publications/je-fume-quelles-consequences-sur-mon-enfant" data-light="no"></div>
+        <label for="sl-toggle-doc">Show documentation</label>
+        <input id="sl-toggle-doc" name="sl-toggle-doc"type="checkbox">
+        <div class="sl-documentation" hidden>
+            <div class="sl-example">
+                <h3>Implementation example:</h3>
+                <div class="sl-demo-code">
+                    <code>
+                            &lt;div id=&quot;socialize-container&quot; data-list=&quot;facebook,twitter,linkedin,email&quot; data-href=&quot;www.socialize.io&quot; data-light=&quot;yes&quot;&gt;&lt;/div&gt;
+                    </code>
+                </div>
+            </div>
+            <div class="sl-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Html Attribute</th>
+                            <th>Args</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td><code>data-list</code></td>
+                        <td>facebook,twitter,linkedin</td>
+                        <td>Generate the buttons passed as args (separated by comas)</td>
+                    </tr>
+                    <tr>
+                        <td><code>data-href</code></td>
+                        <td>[url] | current</td>
+                        <td>Link for share button option</td>
+                    </tr>
+                    <tr>
+                        <td><code>data-light (optionnal)</code></td>
+                        <td>yes | no</td>
+                        <td>Enable the light mode for buttons (disabled by default) </td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <a class="sl-button sl-facebook"><span class="sl-text">Normal mode</span></a>
+                <a class="sl-button sl-facebook-light"><span class="sl-text">Light mode</span></a>
+            </div>
+                
+        
+        </div>
+    </div>
+
+    
+    
+</body>
+</html>

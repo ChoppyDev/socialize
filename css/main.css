@@ -1,0 +1,57 @@
+html {
+    background-color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.article-card {
+    background-color: white;
+    box-shadow: 0 8px 15px rgba(125, 147, 178, 0.25);
+    border-radius: 8px;
+    width: 70%;
+    height: 80%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 70px;
+    padding: 20px;
+    z-index: 999;
+}
+
+.sl-header {
+    position: fixed;
+    background-color: rgb(63, 62, 62);
+    color: white;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    z-index: 9999999999;
+    height: 50px;
+    width: 100%;
+    line-height: 100%;
+    text-align: center;
+}
+
+.sl-documentation {
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    right: 0;
+    left: 0;
+}
+
+.sl-table td {  
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+}
+
+.sl-table table, th {
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 20px;
+}

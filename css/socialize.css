@@ -1,0 +1,91 @@
+/*  _____            _       _ _         
+// /  ___|          (_)     | (_)        
+// \ `--.  ___   ___ _  __ _| |_ _______ 
+//  `--. \/ _ \ / __| |/ _` | | |_  / _ \
+// /\__/ / (_) | (__| | (_| | | |/ /  __/
+// \____/ \___/ \___|_|\__,_|_|_/___\___|
+//
+/*/
+
+#socialize-container {
+    display: inline-block;
+    width: 100%;
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    /*background-color: green;*/
+}
+
+#sl-btn-wrapper {
+    display: inline-flex;
+    /*background-color: red;*/
+    width: 100%;
+}
+
+.sl-button a { text-decoration: none; }
+
+.sl-button:hover {
+    filter: brightness(70%);
+}
+
+.sl-button{
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    font-weight: bold;
+    height: auto;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 25px;
+    margin-right: 20px;
+    transition: width 2s;
+    justify-content: center;
+}
+
+.sl-text{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1vw;
+    color: white;
+    margin-left: 10px;
+}
+
+.sl-button:visited{
+    text-decoration: none;
+}
+
+.sl-icon svg{
+    width: 50px;
+    height: auto;
+    fill: white;
+}
+
+.sl-tiny .sl-text{
+    display: none;
+}
+
+.sl-tiny svg{
+    width: 20px;
+    height: auto;
+}
+
+
+.sl-facebook                    { background-color: #306199;}
+.sl-facebook-light              { border: 2px #306199 solid; }
+.sl-facebook-light .sl-text     { color: #306199;}
+.sl-facebook-light .sl-icon svg { fill: #306199;}
+
+.sl-twitter                     { background-color: #26c4f1;}
+.sl-twitter-light               { border : 2px #26c4f1 solid;}
+.sl-twitter-light .sl-text      { color: #26c4f1;}
+.sl-twitter-light .sl-icon svg  { fill: #26c4f1;}
+
+.sl-linkedin                    { background-color: #007bb6;}
+.sl-linkedin-light              { border: 2px #007bb6 solid;}
+.sl-linkedin-light .sl-text     { color: #007bb6;}
+.sl-linkedin-light .sl-icon svg { fill: #007bb6;}
+
+.sl-email                       { background-color: #0a88ff;}
+.sl-email-light                 { border: 2px  #0a88ff solid;}
+.sl-email-light .sl-text        { color: #0a88ff;}
+.sl-email-light .sl-icon svg    { fill: #0a88ff;}
