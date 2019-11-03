@@ -1,10 +1,8 @@
 ## Socialize
 
 
-=======
-
-Socialize is a all in one plugin for display sharing buttons
-
+### Todo:
++ Merge postlize with Socialize
 
 
-Test webhook
+
