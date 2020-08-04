@@ -91,12 +91,12 @@ var buffer = 0;
 
 // resize only 
 function resize(nbBtns) {
-    if ($("#sl-btn-wrapper").width() < 1000) {
-        $(".sl-button").addClass("sl-tiny");
-    } else {
-        $(".sl-button").removeClass("sl-tiny");
-    }
-    /*btnSize = $(".sl-button")[0].scrollWidth;
+    // if ($("#sl-btn-wrapper").width() < 1000) {
+    //     $(".sl-button").addClass("sl-tiny");
+    // } else {
+    //     $(".sl-button").removeClass("sl-tiny");
+    // }
+    btnSize = $(".sl-button")[0].scrollWidth;
     margin = nbBtns * 20;
     limit = (btnSize * nbBtns) + margin > $("#sl-btn-wrapper")[0].scrollWidth;
     //limit = (btnSize * nbBtns) + margin > test
@@ -110,7 +110,7 @@ function resize(nbBtns) {
         $(".sl-button").removeClass("sl-tiny");
     }
     console.log("buff: " + buffer);
-    eventNumber++;*/
+    eventNumber++;
 
     //console.log($("#sl-btn-wrapper")[0].scrollWidth)
     //console.log("Event Number n°" + eventNumber+" sl-btn-wrapper width : " + $("#sl-btn-wrapper").width() + "  sl-btn-container width : " + $("#socialize-container").width());
