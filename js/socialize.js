@@ -134,7 +134,7 @@ function init() {
     })
     // first resize initialization
     resize(options.list.length);
-    $(".sl-button").css("width", 100 / options.list.length + "%");
+    $(".sl-button").css("width", 100 / options.list.length + "vw");
 }
 
 // bounce animation
