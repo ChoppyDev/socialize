@@ -12,7 +12,6 @@ var btnsNb;
 var btnWidth;
 let path = '\\some\\some\\some\\some\\mainSome'.split('\\')
 
-
 // @todo regroup availableSocials with icons
 icons = { 
     facebook: ' <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29 29"><path d="M26.4 0H2.6C1.714 0 0 1.715 0 2.6v23.8c0 .884 1.715 2.6 2.6 2.6h12.393V17.988h-3.996v-3.98h3.997v-3.062c0-3.746 2.835-5.97 6.177-5.97 1.6 0 2.444.173 2.845.226v3.792H21.18c-1.817 0-2.156.9-2.156 2.168v2.847h5.045l-.66 3.978h-4.386V29H26.4c.884 0 2.6-1.716 2.6-2.6V2.6c0-.885-1.716-2.6-2.6-2.6z"/></svg>',
@@ -96,24 +95,6 @@ function resize(nbBtns) {
     } else {
         $(".sl-button").removeClass("sl-tiny");
     }
-    /*btnSize = $(".sl-button")[0].scrollWidth;
-    margin = nbBtns * 20;
-    limit = (btnSize * nbBtns) + margin > $("#sl-btn-wrapper")[0].scrollWidth;
-    //limit = (btnSize * nbBtns) + margin > test
-
-    console.log((btnSize * nbBtns) + (80*nbBtns))
-    console.log("sw" + $("#sl-btn-wrapper")[0].scrollWidth)
-    if( limit &&  !$(".sl-button").hasClass("sl-tiny")) {
-        $(".sl-button").addClass("sl-tiny");
-        buffer = $(window).width();
-    } else if (  $(window).width() > buffer && $(".sl-button").hasClass("sl-tiny")) {
-        $(".sl-button").removeClass("sl-tiny");
-    }
-    console.log("buff: " + buffer);
-    eventNumber++;*/
-
-    //console.log($("#sl-btn-wrapper")[0].scrollWidth)
-    //console.log("Event Number n°" + eventNumber+" sl-btn-wrapper width : " + $("#sl-btn-wrapper").width() + "  sl-btn-container width : " + $("#socialize-container").width());
 }
 
 
@@ -145,10 +126,7 @@ function bounce(element, times, distance, speed) {
 }
 
 $(document).ready(function(){
-    init()
-
-    console.log(path);
-   
+    init()   
     $(".sl-button").on("click", function() {
         bounce($(this), 3, "10px", 250);
     })
